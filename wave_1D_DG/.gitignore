@@ -1,0 +1,12 @@
+# outoputs
+a.out
+*.o
+*.dat
+*.png
+*.mp4
+
+slurm-*.out
+movie/
+snapshot/
+data/
+
