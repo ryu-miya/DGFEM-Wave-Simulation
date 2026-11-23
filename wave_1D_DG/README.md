@@ -9,9 +9,7 @@ written in C++ and visualized with Python.
 ## Governing Equation
 ### Wave Equation
 1D wave equation on $0 \le x \le L$ with fixed ends:
-$$
-\frac{\partial^2 u}{\partial t^2} - c^2 \frac{\partial^2 u}{\partial x^2} = 0, \qquad u(0, t) = u(L, t) = 0
-$$
+$$\frac{\partial^2 u}{\partial t^2} - c^2 \frac{\partial^2 u}{\partial x^2} = 0, \qquad u(0, t) = u(L, t) = 0$$
 
 Introducing $v = \partial u / \partial t$ and $s = \partial u / \partial x$, 
 $$
